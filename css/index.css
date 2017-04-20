@@ -1,6 +1,7 @@
 body{
     background: url('../img/body-bg.jpg') no-repeat center center;
     background-size: 100% 100%;
+    position: relative;
 }
 .body-bg{
     width:100%;
