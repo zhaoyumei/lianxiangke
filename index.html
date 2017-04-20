@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,miniimum-scale=1.0,maximum-scale=1.0"/>
+
+    <title>联享客二维码</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<section class="body-bg">
+    <div class="my-info">
+        <p class="p1">我是<span>邱平岗</span> <span>（ID：88888888）</span></p>
+        <p class="p2">2017我为联享客代言</p>
+    </div>
+    <div class="my-code"></div>
+</section>
+</body>
+<script>
+    (function(win,doc){
+        win.addEventListener('resize',change,false);
+        change();
+        function change(){
+            doc.documentElement.style.fontSize=20/375*doc.documentElement.clientWidth+'px';
+        }
+    })(window,document);
+    document.body.style.height=document.documentElement.clientHeight+'px';
+
+</script>
+</html>

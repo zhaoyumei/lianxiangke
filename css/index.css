@@ -1,0 +1,43 @@
+body{
+    background: url('../img/body-bg.jpg') no-repeat center center;
+    background-size: 100% 100%;
+}
+.body-bg{
+    width:100%;
+    height: 100%;
+    position: relative;
+}
+.body-bg .my-info{
+    width:17.25rem;
+    height:2.825rem;
+    /*background:green;*/
+    position: absolute;
+    left: 0.775rem;
+    top: 9.425rem;
+}
+.body-bg .my-info p{
+    width:100%;
+    height: 50%;
+    padding-left: .25rem;
+    text-align: center;
+    font-size: 0.85rem;
+    font-family:'AdobeHeitiStd';
+    color: #e93c28;
+    font-weight: bold;
+}
+.body-bg .my-info .p1{
+    letter-spacing: .04rem;
+    padding-top:.075rem;
+}
+.body-bg .my-info .p2{
+    letter-spacing: .45rem;
+}
+.body-bg .my-code{
+    width:8.65rem;
+    height:8.675rem;
+    background:url("../img/my-code.png") no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 5rem;
+    top: 14.6rem;
+}
