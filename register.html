@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,miniimum-scale=1.0,maximum-scale=1.0"/>
+
+    <title>联享客注册</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+<section class="register-bg">
+    <div class="register">
+        <form action="">
+            <div class="top">
+                <ul class="list">
+                    <li>
+                        <span class="sprit s1"></span>
+                        <input type="text" class="phone" maxlength="11" placeholder="请输入手机号">
+                    </li>
+                    <li>
+                        <span class="sprit s2"></span>
+                        <input type="text" class="kapkey" maxlength="6" placeholder="请输入验证码">
+                        <a href="##" id="getKey" class="linkkapkey">获取验证码</a>
+                    </li>
+                    <li>
+                        <span class="sprit s3"></span>
+                        <input type="text" class="password"  maxlength="20" placeholder="请输入登录密码">
+                    </li>
+                    <li>
+                        <span class="sprit s4"></span>
+                        <input type="text" class="password1"  maxlength="20"  placeholder="请确认密码">
+                    </li>
+                    <li>
+                        <span class="sprit s5"></span>
+                        <input type="text" class="id-number" maxlength="8" placeholder="请填写推荐人ID号">
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom-btn">
+                <input type="submit" value="注册">
+            </div>
+        </form>
+    </div>
+</section>
+</body>
+<script>
+    (function(win,doc){
+        win.addEventListener('resize',change,false);
+        change();
+        function change(){
+            doc.documentElement.style.fontSize=20/375*doc.documentElement.clientWidth+'px';
+        }
+    })(window,document);
+    var oSe = document.querySelector('.register-bg');
+    oSe.style.height=document.documentElement.clientHeight+'px';
+</script>
+<script>
+    var oForm1 = document.querySelector('.phone');
+    var oForm2 = document.querySelector('.kapkey');
+    var oForm3 = document.querySelector('.password');
+    var oForm4 = document.querySelector('.password1');
+    var oForm5 = document.querySelector('.id-number');
+    var oS1 = document.querySelector('.s1');
+    var oS2 = document.querySelector('.s2');
+    var oS3 = document.querySelector('.s3');
+    var oS4 = document.querySelector('.s4');
+    var oS5 = document.querySelector('.s5');
+    oForm1.onfocus = function(){
+        oS1.style.background='url("img/s11.png") no-repeat center center';
+        oS1.style.backgroundSize='100% 100%';
+    }
+    oForm1.onblur = function(){
+        oS1.style.background='url("img/s1.png") no-repeat center center';
+        oS1.style.backgroundSize='100% 100%';
+    }
+    oForm2.onfocus = function(){
+        oS2.style.background='url("img/s22.png") no-repeat center center';
+        oS2.style.backgroundSize='100% 100%';
+    }
+    oForm2.onblur = function(){
+        oS2.style.background='url("img/s2.png") no-repeat center center';
+        oS2.style.backgroundSize='100% 100%';
+    }
+    oForm3.onfocus = function(){
+        oS3.style.background='url("img/s33.png") no-repeat center center';
+        oS3.style.backgroundSize='100% 100%';
+    }
+    oForm3.onblur = function(){
+        oS3.style.background='url("img/s3.png") no-repeat center center';
+        oS3.style.backgroundSize='100% 100%';
+    }
+    oForm4.onfocus = function(){
+        oS4.style.background='url("img/s33.png") no-repeat center center';
+        oS4.style.backgroundSize='100% 100%';
+    }
+    oForm4.onblur = function(){
+        oS4.style.background='url("img/s3.png") no-repeat center center';
+        oS4.style.backgroundSize='100% 100%';
+    }
+    oForm5.onfocus = function(){
+        oS5.style.background='url("img/s55.png") no-repeat center center';
+        oS5.style.backgroundSize='100% 100%';
+    }
+    oForm5.onblur = function(){
+        oS5.style.background='url("img/s5.png") no-repeat center center';
+        oS5.style.backgroundSize='100% 100%';
+    }
+</script>
+</html>

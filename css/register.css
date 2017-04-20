@@ -1,0 +1,116 @@
+body{
+    position: relative;
+}
+.register-bg{
+    width:100%;
+    height: 100%;
+    background: url('../img/register-bg.png') no-repeat center center;
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+}
+.register-bg .top{
+    width: 16.425rem;
+    height: 13.1rem;
+    margin:10rem auto 0;
+    background: #ffffff;
+    /*border:0px solid #ffffff;*/
+    border-radius: .4rem .4rem;
+    overflow: hidden;
+}
+.register-bg .top .list{
+
+}
+.register-bg .top .list li{
+    width:100%;
+    height:2.6rem;
+    border-bottom:1px solid #e0e0e0;
+    position: relative;
+}
+.register-bg .top .list li:nth-last-child(1){
+    border-bottom:none;
+}
+.register-bg .top .list li:nth-child(2){
+    position: relative;
+}
+.register-bg .top .list li input{
+    border:none;
+    width:calc(100% - 3rem);
+    height:2.6rem;
+    font-size: 0.725rem;
+    letter-spacing: 1px;
+    font-family:'AdobeHeitiStd';
+    padding-left: 3rem;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #bdbdbd;
+}
+.register-bg .top #getKey{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #ff9f81;
+    font-size: 0.725rem;
+    font-family:'AdobeHeitiStd';
+    display: inline-block;
+    vertical-align: top;
+    width: 6rem;
+    height: 2.6rem;
+    line-height: 2.6rem;
+    text-align: center;
+}
+.register-bg .top .sprit{
+    width:1rem;
+    height: 1rem;
+    position: absolute;
+    left: 1.325rem;
+}
+.register-bg .top .s1{
+    background: url("../img/s1.png") no-repeat center center;
+    background-size:100%;
+    top: .775rem;
+}
+.register-bg .top .s2{
+    background: url("../img/s2.png") no-repeat center center;
+    background-size:100%;
+    top: .775rem;
+}
+.register-bg .top .s3{
+    width:.825rem;
+    height: 1.2rem;
+    background: url("../img/s3.png") no-repeat center center;
+    background-size:100%;
+    top: .6rem;
+    left:1.425rem;
+}
+.register-bg .top .s4{
+    width:.825rem;
+    height: 1.2rem;
+    background: url("../img/s3.png") no-repeat center center;
+    background-size:100%;
+    top: .6rem;
+    left:1.425rem;
+}
+.register-bg .top .s5{
+    width:.775rem;
+    height: .625rem;
+    background: url("../img/s5.png") no-repeat center center;
+    background-size:100%;
+    top: .975rem;
+    left:1.5rem;
+}
+.register-bg .bottom-btn{
+    width: 11.575rem;
+    height: 2.425rem;
+    margin:2.05rem auto 0;
+}
+.register-bg .bottom-btn input{
+    width: 11.575rem;
+    height: 2.425rem;
+    font-size: 1rem;
+    color: #fff;
+    font-family:'AdobeHeitiStd';
+    border-radius: 1.2rem 1.2rem;
+    border:1px solid #fff;
+    background: none;
+}
